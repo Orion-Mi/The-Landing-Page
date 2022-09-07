@@ -5,44 +5,80 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>microbe landing page</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
-        <div>
-            <h1 class="logo">Microbe Talk</h1> <!--Or an image(logo)-->
-            <div>
-                <a href="#">link 1</a>
-                <a href="#">link 2</a>
-                <a href="#">link 3</a>
+        <div class="container">
+            <div class="nav">
+                <h1 class="logo">
+                    <a href="#top">Microbe Talks</a>
+                </h1> <!--Or an image(logo)-->
+                <div>
+                    <a href="#">Home</a>
+                    <a href="#boxes">About</a>
+                    <a href="#call">Contact</a>
+                </div>
             </div>
-        </div>
-        <div class="header-content">
-            <h1>This Website is awesome!</h1>
-            <p>When writing code, it’s considered best practice to commit early and often.</p>
-            <button>Sign Up</button>
-            <img src="#" alt="">
+            <div class="header">
+                <div id="left">
+                <h1>This is a Microbe Website.</h1>
+                <p>We are the organisms too small to be seen without using a special-microscope, and we include tribes like bacteria, archaea, and single cell eukaryotes — cells that have a nucleus, like an amoeba or a paramecium. We also consider viruses as one of Us.</p>
+                <button>Contact Us</button>
+                </div>
+                <img src="./istockphoto-1223471740-1024x1024.jpg" alt="" />
+            </div>
         </div>
     </header>
     <main>
-        <div class="info-text">
-            <h2 class="info-header-text">Some random information</h2>
-            <img src="#" alt=""> <!--Placeholder-->
-            <p class="description">This will create a timeline of your progress and show that your finished code didn’t appear out of nowhere.</p>
-            <img src="#" alt=""> <!--Placeholder-->
-            <p class="description">This will create a timeline of your progress and show that your finished code didn’t appear out of nowhere.</p>
-            <img src="#" alt=""> <!--Placeholder-->
-            <p class="description">This will create a timeline of your progress and show that your finished code didn’t appear out of nowhere.</p>
-            <img src="#" alt=""> <!--Placeholder-->
-            <p class="description">This will create a timeline of your progress and show that your finished code didn’t appear out of nowhere.</p>
+        <div class="container">
+            <h2 class="info-header" id="boxes">Some Internet questions about microbes</h2>
+            <div class="boxes">
+                <div class="box">
+                    <h4>ARE MICROBES ANIMALS?</h4> <!--Placeholder-->
+                    <p>Nope. Microbes are single-celled organisms.</p>
+                    <p>Animal is a name reserved for multicellular eukaryotes that are heterotrophic, so organisms that are bigger than a single cell and almost all their cells have a nucleus.</p>
+                </div>
+    
+                <div class="box">
+                    <h4>ARE MICROBES BACTERIA?</h4> <!--Placeholder-->
+                    <p>No, not exclusively. Bacteria are microbes, but not all microbes are bacteria.</p>
+                    <hr>
+                    <h4>ARE YEAST MICROBES?</h4>
+                    <p>Yes - they're very tiny fungal cells.  And we love yeasts because we love beer and wine and bread! </p>
+                </div>
+    
+                <div class="box">
+                    <h4>ARE MICROBES DANGEROUS?</h4> <!--Placeholder-->
+                    <p>Not as dangerous as we used to think. </p>
+                    <p>The grand majority of microbes are either not in contact with us or, if they are in contact with us, they’re actually mutualistic, which means that we gain a benefit from them, they gain a benefit from us. Or they’re simply neutral. </p>
+                </div>
+    
+                <div class="box">
+                    <h4>ARE MICROBES IMPORTANT?</h4><!--Placeholder-->
+                    <p>We wouldn’t be here without them. Every oxygen molecule we inhale is made by a microbe or a descendant of a microbe. The protein in our body got to us through microbes. </p>
+                    <p>Plants wouldn’t be here either. Or potato chips. Or cheese. Or beer.</p>
+                </div>
+            </div>
+            
         </div>
-        <div class="quote">
-            <blockquote>"After you have entered git push origin main, switch over to your browser and open your repository on GitHub. You should now see all the files you just pushed."</blockquote>
-            <cite>-Odin</cite>
+        <div class="hold cont">
+        <div class="place"></div>
+        <div class="place"></div>
+        <div class="place"></div>
+        <div class="place"></div>
         </div>
-        <div class="call-action">
-            <h5>Call to action. Let's do it</h5>
-            <p>Okay, that’s enough Git for the moment – time to actually build stuff!</p>
-            <button>Sign Up</button>
+        <div class="quote container">
+            <blockquote>
+                “Science knows no country, because knowledge belongs to humanity, and is the torch which illuminates the world.”</blockquote>
+            <cite>― Louis Pasteur</cite>
+        </div>
+        <div class="call-action" id="call">
+            <div>
+            <h5>Would you like to know more about Microbes?</h5>
+            <p>Okay, that’s Great! That's actually very easy, with the current digital information and the vast data.</p>
+            </div>
+            <button>Contact Us</button>
         </div>
     </main>
 </body>
